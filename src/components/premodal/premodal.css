@@ -1,0 +1,226 @@
+.modal-mian{
+  padding: 70px !important;
+}
+.custom-modal {
+  max-width: 100% !important;
+  height: 100%;
+  margin: 0 !important;
+}
+.custom-modal .modal-content {
+  height: 100%;
+  padding: 0;
+}
+.close-button {
+  border: none;
+  background-color: black;
+  color: #fff !important;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: absolute;
+  right: 15px;
+  top: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 11;
+}
+.Nav-section {
+  width: 280px;
+  padding: 16px 24px;
+  height: 100%;
+  overflow: scroll;
+}
+.account-btn {
+  padding: 11px 12px;
+  color: #93949a;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dropdown-menu {
+  border: none;
+  width: 100%;
+  --bs-dropdown-link-active-bg:none;
+  position: relative;
+  top: -40px;
+}
+.nav-link:focus-visible{
+  box-shadow: 0;
+}
+.btn:focus,
+.btn:focus-visible,
+.btn:hover{
+  background-color: unset !important;
+  color: unset !important;
+  border: unset !important;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.custom-modal .nav-link {
+  padding: 11px 12px;
+  color: #000;
+  font-size: 14px !important;
+  font-weight: 500 !;
+  border-radius: 8px;
+}
+.custom-modal .nav-link.active {
+  color: #410cd9;
+  background-color: #f5f2fd;
+}
+.custom-modal .dropdown-toggle {
+  color: #93949a !important;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.custom-modal .arrow-right {
+  font-size: 14px;
+}
+.dropdown-item {
+  padding: 11px 12px;
+  border-radius: 8px;
+
+}
+.dropdown-item.active {
+  color: #410cd9;
+  background-color: #f5f2fd;
+}
+
+.Tabs-section {
+  flex: 1;
+  height: 100%;
+  background-color: rgb(247 247 250);
+  padding-top: 2.5rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  overflow-y: scroll;
+}
+.nav-tabs {
+  border: none !important;
+}
+.Tabs-section .download-section {
+  padding: 20px 24px;
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+}
+.Tabs-section h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+.Tabs-section .download-section h5 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+.form-check-input:checked{
+  background-color: #410cd9;
+  border: #410cd9;
+  box-shadow: 0 0 0 0.25rem rgba(55,1,215,35%);
+  
+}
+.radio-text{
+  color: #93949A;
+  font-size: 12px;
+    font-weight: 500;
+}
+/* .form-check-input:checked[type=radio] {
+  --bs-form-check-bg-image: none;
+}
+.form-check-input:checked::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #410cd9;
+  border-radius: 50%;
+} */
+
+.form-switch .form-check-input:focus{
+  background-color: #410cd9;
+  border: #410cd9;
+  box-shadow: 0 0 0 0.25rem rgba(55,1,215,35%);
+
+}
+.form-check-label{
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  margin-left: 10px;
+}
+.switch-main{
+  border-top: 1px solid rgba(5,16,75,10%);
+  padding: 20px 0;
+}
+.external-section{
+  padding: 20px 24px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.head {
+  padding: 20px 0;
+
+}
+.head h5,
+.content h5{
+  width: 10rem;
+  color: #707177;
+  font-size: 14px;
+}
+
+.head .free-cont{
+
+  flex: 1 1 0%;
+}
+.head .free-cont span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  rgba(0,0,0,56%);
+  padding: 2px 3px;
+  color: #fff;
+  width: 40px;
+  border-radius: 5px;
+  
+  font-size: 14px;
+    font-weight: 600;
+}
+.download-section .content{
+  border-top: 1px solid rgba(5,16,75,10%);
+  padding: 20px 0;
+  height: unset;
+}
+.download-section .content img{
+  width: 20px;
+  height: 20px;
+}
+.download-section .content p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  margin: 0;
+}
+.upgrade-btn{
+  border: none;
+  background: linear-gradient(to right, #410CD9, #DA45E5) !important;
+  font-size: 14px;
+  font-weight: 600;
+  height: 2.5rem;
+  padding: 0 16px;
+  border-radius:12px;
+}
+.upgrate-btn:hover{
+  background: linear-gradient(to right, #4D3DE3, #EE65F5) !important;
+}
+.form-select:focus {
+  border-color:unset;
+  outline: 0;
+  box-shadow: unset;
+}

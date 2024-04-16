@@ -1,0 +1,69 @@
+.photoselector {
+  background-color: #f2f3f7;
+  border-radius: 34px;
+  padding: 2rem;
+}
+.photoselector .photo-lines {
+  border: 2px dashed #e4e5eb;
+  width: 100%;
+  padding: 48px;
+  border-radius: 34px;
+}
+.photoselector h3{
+    font-size: 29px;
+    font-weight: 700;
+    color: black;
+    
+}
+.photoselector p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #707177;
+    margin: 0;
+}
+.photoselector .Or-cont {
+
+ max-width: 24rem;
+ width: 100%;
+  color: #C2C3C9;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 32px;
+}
+
+.photoselector .Or-cont::before {
+  content: "";
+  background-color: #E6E7ED;
+  display: block;
+  height: 1px;
+  flex: 1 1 0%;
+  margin-right: 10px;
+
+}
+.photoselector .Or-cont::after {
+  content: "";
+  background-color: #E6E7ED;
+  display: block;
+  height: 1px;
+  flex: 1 1 0%;
+  margin-left: 10px;
+}
+
+.photoselector .btn{
+    margin-top: 40px;
+    background-color: #410CD9;
+    padding: 10px 0;
+    padding-left: 14px;
+    padding-right: 19px;
+}
+.photoselector .btn .plus-icon{
+    font-size: 18px;
+    color: #fff;
+}
+.photoselector .btn span{
+    font-size: 14px;
+    font-weight: 600;
+    
+    margin-left: 8px;
+}

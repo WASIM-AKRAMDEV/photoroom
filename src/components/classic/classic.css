@@ -1,0 +1,61 @@
+/* .Classic-section{
+    padding: 50px 0;
+} */
+.Classic-section h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+.Classic-section .classics-card{
+    width: 144px;
+    
+    
+}
+.Classic-section .image-btn{
+    background-color: rgba(88,38,222,6%);
+    border: none;
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    border:1px solid #e2e2e2;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.Classic-section .image-btn:hover{
+    background-color: rgba(64,10,219,11%);
+    position: relative;
+    width: 100%;
+    z-index: 111;
+}
+.Classic-section .classics-card img{
+    width: 100%;
+    height: 100%;
+}
+.Classic-section .classics-card p{
+    font-size: 12px;
+    font-weight: 500;
+    white-space: pre-wrap;
+    text-align: center;
+    margin-top: 4px;
+}
+.Classic-section .classics-card .pro-text-main{
+    display: block;
+    background-color: white;
+    border-radius: 4px;
+    padding: 1.5px 4px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+.Classic-section .classics-card .pro-text-main .pro-text{
+    display: block;
+   background-image:linear-gradient(to right, #410CD9, #DA45E5);
+   background-clip: text;
+   color: transparent; 
+   font-size: 10px;
+   
+}

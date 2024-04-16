@@ -1,0 +1,66 @@
+
+.sidebar-section{
+    width: 280px;
+    height: 100vh;
+    border-right:1px solid rgba(0,0,0,5%);
+    background-color: white;
+    padding: 16px 25px;
+}
+.sidebar-section .logo-main{
+    height: 30px;
+    margin-left:10px;
+    padding-right: 15px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    width: 148px;
+}
+
+.sidebar-section .logo-main .nav-link{
+    display: block;
+     width: 100%;
+     height: 100%;
+ 
+  
+  
+}
+.sidebar-section .logo-main a img{
+    width: 100%;
+    
+}
+.sidebar-section .line{
+    display: block;
+    background-color:rgba(0,0,0,5%);
+    height: 1px;
+    width: 85%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left:15px;
+}
+.sidebar-section .nav .nav-link{
+    gap: 1px;
+    color: #000000;
+    padding: 8px 12px 8px 10px;
+    border-radius: 8px;
+}
+.sidebar-section .nav .nav-link:hover{
+    background-color: rgba(5,16,75,10%);
+}
+.sidebar-section .nav .nav-link p{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    margin: 0 !important;
+}
+.sidebar-section .nav .nav-link .icon{
+  color: #707177;
+  font-size: 20px;
+}
+.sidebar-section .text-content{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+color: #93949A;
+padding: 11px 12px;
+}
+.sidebar-section .setting-nav{
+    bottom: 20px;
+}

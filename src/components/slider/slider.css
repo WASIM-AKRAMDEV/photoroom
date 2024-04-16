@@ -1,0 +1,124 @@
+/* .swiper-slide{
+
+} */
+
+
+
+.card-height{
+    height:7rem !important;
+}
+.card-shopify{
+    height:8rem !important;
+}
+.card-shopify-final{
+    height:11rem !important;
+}
+.instagram-card-height{
+    height:16rem !important;
+}
+.card-tiktok-thumbnail{
+    height:12rem !important;
+}
+.card-youtube{
+    height:5rem  !important;
+}
+.card-facebook{
+    height:3.5rem  !important;
+}
+.card-pinterest{
+    height:13rem  !important;
+}
+.Landscape-card{
+    height:6.5rem !important;
+}
+.card-gallery{
+    height:12rem  !important;
+}
+.swiper-wrapper {
+    align-items: end;
+}
+.swiper-slide .image-btn{
+    background-color: #e6e8ef;
+    border: none;
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    border:1px solid #c6c8d1;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.swiper-slide .image-btn:hover{
+    background-color: rgba(64,10,219,11%);
+    position: relative;
+    width: 100%;
+    z-index: 111;
+}
+.swiper-slide  img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide .icon-image{
+    width: 30px;
+    height: 30px;
+}
+.swiper-slide  p{
+    font-size: 12px;
+    font-weight: 500;
+    white-space: pre-wrap;
+    text-align: center;
+    margin-top: 4px;
+}
+.swiper-slide .pro-text-main{
+    display: block;
+    background-color: white;
+    border-radius: 4px;
+    padding: 1px 4px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.swiper-slide .pro-text-main .pro-text{
+    display: block;
+   background-image:linear-gradient(to right, #410CD9, #DA45E5);
+   background-clip: text;
+   color: transparent; 
+   font-size: 10px;
+   
+}
+.swiper-button-prev,
+.swiper-button-next
+{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgba(5,16,75,10%);
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    transition:  all  ease 0.5s;
+
+
+}
+.swiper-button-prev .arrow,
+.swiper-button-next .arrow{
+    font-size: 18px;
+    color: black;
+}
+.buttons-cont{
+ top: -50px;
+ min-height:100% ;
+
+}
+.swiper-main:hover .swiper-button-prev,
+.swiper-main:hover .swiper-button-next{
+    display: flex !important;
+    transition:  all  ease 0.5s;
+
+}
